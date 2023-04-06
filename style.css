@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hero Section */
+
+#hero {
+  background-color: #1f2937;
+  width: 100%;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 180px;
+}
+.hero__logo {
+  color: #dca577;
+  font-size: 40px;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  transition: all ease-in-out 1s;
+}
+.hero__logo:hover {
+  color: #ffffff;
+  transition: all ease-in-out 1s;
+}
+.hero__content {
+  display: flex;
+  padding: 80px 180px;
+}
+h1 {
+  color: white;
+  font-size: 70px;
+}
+.hero__info-cat {
+  color: #dca577;
+}
+.hero__info-text {
+  color: white;
+  font-size: 20px;
+  margin-top: 40px;
+  padding-right: 40px;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  width: 70%;
+}
+
+/* Button */
+.hero__info-btn {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 40px;
+  text-align: center;
+  border-radius: 20px;
+  color: #dca577;
+  background-color: #1f2937;
+  transition: all ease-in-out 1s;
+  border-radius: 40px;
+  filter: drop-shadow(0 -1mm 2mm #dca577);
+}
+.hero__info-btn:hover {
+  color: white;
+}
+
+/* API */
+.hero__info-api {
+  margin-top: 50px;
+  padding: 40px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 800px;
+  height: 500px;
+  background-color: #1f2937;
+  color: white;
+  filter: drop-shadow(0 -5mm 4mm #dca577);
+  transition: all ease-in-out 1s;
+  cursor: pointer;
+}
+.hero__info-api:hover {
+  background-color: #dca577;
+  filter: drop-shadow(0 -5mm 4mm white);
+  transition: all ease-in-out 1s;
+}
+#cat-api {
+  font-size: 20px;
+  margin-top: 25%;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2937;
+  color: #dca577;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.footer-link {
+  text-decoration: none;
+  color: #dca577;
+  transition: all ease 1s;
+}
+.footer-link:hover {
+  color: #ffffff;
+  transition: all ease 1s;
+}
