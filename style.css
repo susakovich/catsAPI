@@ -70,6 +70,7 @@ h1 {
 }
 .hero__info-btn:hover {
   color: white;
+  filter: drop-shadow(0 -1mm 2mm white);
 }
 
 /* API */
